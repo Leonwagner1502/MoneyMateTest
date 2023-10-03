@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "com.htlbrml.a18"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.htlbrml.a18"
@@ -32,6 +32,8 @@ android {
 }
 
 dependencies {
+    implementation ("com.google.android.material:material:1.3.0-alpha03")
+    implementation ("com.google.android.material:material:1.4.0")
 
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.9.0")

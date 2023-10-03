@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http//:schemas.android.com/tools"
+    xmlns:tools="http://schemas.android.com/tools"
+    tool:showIn ="navigation_view"
+    tools:ignore="NamespaceTypo"
+    android:title="xxx">
+
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Übersicht"
+            android:icon="@drawable/home">
+        </item>
+
+        <item
+            android:title="E/A"
+            android:id="@+id/e_a">
+        </item>
+
+        <item
+            android:title="Fixkosten"
+            android:id="@+id/fixkosten"
+            >
+        </item>
+    </group>
+
+    <item android:title="Allgemein">
+        <menu>
+            <item android:title="Kategorien"
+                android:id="@+id/Kategorien"
+               />
+
+            <item android:title="Einstellungen"
+                android:id="@+id/settings"
+                />
+        </menu>
+    </item>
+
+
+</menu>
